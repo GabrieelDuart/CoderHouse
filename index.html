@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio JS</title>
+</head>
+<body>
+    <h1>Verifique o console</h1>
+</body>
+</html>
+<script>    
+
+var nome = prompt("Digite seu nome:");
+console.log("Olá " + nome + "!");
+
+var numero1 = parseFloat(prompt("Digite um número:"));
+var numero2 = parseFloat(prompt("Digite outro número:"));
+
+if (isNaN(numero1)) {
+  alert("Por favor, digite um número válido.");
+} else {
+  var resultadoSoma = numero1 + numero2;
+  console.log("A soma de " + numero1 + " e " + numero2 + " é: " + resultadoSoma);
+}
+
+var texto1 = prompt("Digite um texto:");
+var texto2 = prompt("Digite outro texto:");
+var resultadoConcatenacao = texto1 + " " + texto2;
+alert("O resultado da concatenação é: " + resultadoConcatenacao);
+
+
+</script>
